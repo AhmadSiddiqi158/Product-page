@@ -223,11 +223,18 @@
 
 
 footer {
-  background-color: black;
+  background: url(images/5.png) top no-repeat;
   padding-top: 3rem;
   padding-bottom: 3rem;
+  height: 500px;
+  text-align: center;
 }
 
 footer p {
   margin-bottom: .25rem;
+}
+
+.container {
+  position: relative;
+  top: 300px;
 }
