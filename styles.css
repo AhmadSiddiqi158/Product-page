@@ -1,15 +1,34 @@
-
-.jumbotron {
-  padding: 0;
+.banner {
   margin-bottom: 0;
+  height: 850px;
+  background: linear-gradient(#1e1f1d, transparent 60%),
+  linear-gradient(0deg,#1e1f1d, transparent 60%),
+  #ffa949 url(../images/variety-of-fruits-890507.jpg) no-repeat center /cover;
+  text-align: center;
 }
 
-@media (min-width: 768px) {
-  .jumbotron {}
+
+.title {
+  color: white;
+}
+
+.name {
+  color: white;
+  font-size: 3rem;
+  line-height: 1.1;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-family: 'Abolition Reagular', "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+.body {
+  font: 1em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .img1 {
   width: 100%;
+  height: 1200px;
 }
 
 .img2 {
@@ -32,19 +51,21 @@
   max-width: 40rem;
 }
 
-
 .cellphone-img {
   text-align: center;
 }
-.Container{
+
+.Container {
   width: 1400px;
   max-width: 100%;
   padding: 0 20px;
-  margin:0 auto;
+  margin: 0 auto;
 }
-.box p{
+
+.box p {
   opacity: 0.6;
 }
+
 .Pic1 {
   border: 5px solid #2b2b28;
   /* float: left;
@@ -65,14 +86,12 @@
   text-align: justify;
   padding: 20px;
 } */
-.box{
+.box {
   background-color: #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
   border-radius: 15px;
   margin: 40px 0;
   padding: 60px 120px;
-
-
 }
 
 .Pic2 {
@@ -88,10 +107,15 @@
   transform: rotate(20deg);
 }
 
+.explanation {
+  background-color: #f4ebc1;
+  text-align: center;
+}
+
 .two {
   /* margin-top: 70px;
   margin-bottom: 70px; */
-  background-color: #d7bcfd;
+  background-color: #f4ebc1;
   /* height: 500px;
   text-align: justify;
   padding: 20px; */
@@ -118,7 +142,6 @@
   text-align: justify;
   padding: 20px;
 } */
-
 .logo {
   width: 55px;
   height: 45px;
@@ -144,22 +167,28 @@ hr {
 
 #contributers {
   padding: 50px;
-  background-color: white /*#f4f6ff*/;
+  background-color: white
+    /*#f4f6ff*/
+  ;
   text-align: center;
 }
-.carousel-heading{
+
+.carousel-heading {
   margin-bottom: 0;
   font-size: 2rem;
   text-align: center;
-  background-color: white /*#f4f6ff*/;
+  background-color: white
+    /*#f4f6ff*/
+  ;
 }
 
 /* .carousel-item {
   height: 500px;
 } */
-.carousel-inner img{
+.carousel-inner img {
   border-radius: 5%;
 }
+
 .slide-daniel {
   width: 300px;
   height: 337px;
@@ -235,10 +264,10 @@ hr {
 .carousel-link {
   align-items: flex-start;
 }
+
 .carousel-control-next-icon, .carousel-control-prev-icon {
   filter: invert(0.2);
 }
-
 
 footer {
   background: url(images/5.png) top no-repeat;
