@@ -1,10 +1,17 @@
-.banner {
+
+.topbar {
+  background-color: #1e1f1d /*hsl(192, 100%, 9%)*/;
+}
+.headline-section {
   margin-bottom: 0;
   height: 850px;
   background: linear-gradient(#1e1f1d, transparent 60%),
   linear-gradient(0deg,#1e1f1d, transparent 60%),
-  #ffa949 url(../images/variety-of-fruits-890507.jpg) no-repeat center /cover;
+  #ffa949 url(images/fruits.jpg) no-repeat center /cover;
+}
+.banner{
   text-align: center;
+  padding-top: 425px;
 }
 
 
@@ -12,6 +19,14 @@
   color: white;
 }
 
+.explanation {
+  background-color: white;
+  text-align: center;
+}
+
+.explanation-p{
+  padding: 2% 15%;
+}
 .name {
   color: white;
   font-size: 3rem;
@@ -107,15 +122,11 @@
   transform: rotate(20deg);
 }
 
-.explanation {
-  background-color: #f4ebc1;
-  text-align: center;
-}
 
 .two {
   /* margin-top: 70px;
   margin-bottom: 70px; */
-  background-color: #f4ebc1;
+  background-color: white;
   /* height: 500px;
   text-align: justify;
   padding: 20px; */
@@ -148,9 +159,6 @@
   border-radius: 10%
 }
 
-.topbar {
-  background-color: #8186d5;
-}
 
 /* Ahmad Part */
 hr {
@@ -270,7 +278,8 @@ hr {
 }
 
 footer {
-  background: url(images/5.png) top no-repeat;
+  /* background: url(images/5.png) top no-repeat; */
+  background-color: #1e1f1d;
   padding-top: 3rem;
   padding-bottom: 3rem;
   height: 500px;
