@@ -122,6 +122,10 @@
   transform: rotate(20deg);
 }
 
+.one {
+  background-color: #f0e3ff;
+}
+
 
 .two {
   /* margin-top: 70px;
@@ -145,14 +149,9 @@
   transform: rotate(340deg);
 }
 
-/* .three {
-  margin-top: 70px;
-  margin-bottom: 70px;
-  background-color: white;
-  height: 500px;
-  text-align: justify;
-  padding: 20px;
-} */
+.three {
+  background-color: #ededed;
+}
 .logo {
   width: 55px;
   height: 45px;
@@ -282,15 +281,9 @@ footer {
   background-color: #1e1f1d;
   padding-top: 3rem;
   padding-bottom: 3rem;
-  height: 500px;
   text-align: center;
 }
 
 footer p {
   margin-bottom: .25rem;
-}
-
-.footcontainer {
-  position: relative;
-  top: 300px;
 }
